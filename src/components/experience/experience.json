@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "displayName": "experience"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "techtags": {
+      "displayName": "tags",
+      "type": "component",
+      "repeatable": true,
+      "component": "technologies.tags"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_stack_tech_tags",
+  "info": {
+    "displayName": "tech-tags"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "string"
+    },
+    "skill": {
+      "type": "float"
+    }
+  }
+}

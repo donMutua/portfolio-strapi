@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_stack_tags",
+  "info": {
+    "displayName": "tags"
+  },
+  "options": {},
+  "attributes": {
+    "techstack": {
+      "type": "string"
+    }
+  }
+}

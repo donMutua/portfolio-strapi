@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_projects_demo_projects",
+  "info": {
+    "displayName": "demo  projects",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about": {
+      "type": "string"
+    },
+    "stackTags": {
+      "displayName": "tags",
+      "type": "component",
+      "repeatable": true,
+      "component": "stack.tags"
+    },
+    "url": {
+      "type": "string"
+    },
+    "githubUrl": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

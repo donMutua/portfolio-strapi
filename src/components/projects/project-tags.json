@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_projects_project_tags",
+  "info": {
+    "displayName": "projectTags"
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "string"
+    }
+  }
+}
