@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "about": {
-      "type": "text"
-    },
     "experiences": {
       "displayName": "experience",
       "type": "component",
@@ -44,6 +41,17 @@
       "type": "component",
       "repeatable": true,
       "component": "projects.demo-projects"
+    },
+    "highlights": {
+      "displayName": "highlights",
+      "type": "component",
+      "repeatable": false,
+      "component": "highlights.highlights"
+    },
+    "aboutMe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about"
     }
   }
 }
