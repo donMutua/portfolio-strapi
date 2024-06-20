@@ -5541,17 +5541,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:8.0.1":
-  version: 8.0.1
-  resolution: "better-sqlite3@npm:8.0.1"
-  dependencies:
-    bindings: "npm:^1.5.0"
-    node-gyp: "npm:latest"
-    prebuild-install: "npm:^7.1.0"
-  checksum: c221bd1133917572a055f2947390d898e6ad2bbb1d4e433e65bfb8f584612c3571c2410017f06aeef32ebcf78a930f0cc4f3591f0afd27838a77d7336ce44151
-  languageName: node
-  linkType: hard
-
 "big-integer@npm:^1.6.16, big-integer@npm:^1.6.44":
   version: 1.6.52
   resolution: "big-integer@npm:1.6.52"
@@ -5570,15 +5559,6 @@ __metadata:
   version: 2.3.0
   resolution: "binary-extensions@npm:2.3.0"
   checksum: 75a59cafc10fb12a11d510e77110c6c7ae3f4ca22463d52487709ca7f18f69d886aa387557cc9864fbdb10153d0bdb4caacabf11541f55e89ed6e18d12ece2b5
-  languageName: node
-  linkType: hard
-
-"bindings@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "bindings@npm:1.5.0"
-  dependencies:
-    file-uri-to-path: "npm:1.0.0"
-  checksum: 3dab2491b4bb24124252a91e656803eac24292473e56554e35bbfe3cc1875332cfa77600c3bac7564049dc95075bf6fcc63a4609920ff2d64d0fe405fcf0d4ba
   languageName: node
   linkType: hard
 
@@ -7981,13 +7961,6 @@ __metadata:
   dependencies:
     escape-string-regexp: "npm:^1.0.5"
   checksum: 9c421646ede432829a50bc4e55c7a4eb4bcb7cc07b5bab2f471ef1ab9a344595bbebb6c5c21470093fbb730cd81bbca119624c40473a125293f656f49cb47629
-  languageName: node
-  linkType: hard
-
-"file-uri-to-path@npm:1.0.0":
-  version: 1.0.0
-  resolution: "file-uri-to-path@npm:1.0.0"
-  checksum: 3b545e3a341d322d368e880e1c204ef55f1d45cdea65f7efc6c6ce9e0c4d22d802d5629320eb779d006fe59624ac17b0e848d83cc5af7cd101f206cb704f5519
   languageName: node
   linkType: hard
 
@@ -11100,7 +11073,6 @@ __metadata:
     "@strapi/plugin-users-permissions": "npm:4.25.0"
     "@strapi/provider-upload-aws-s3": "npm:^4.25.1"
     "@strapi/strapi": "npm:4.25.0"
-    better-sqlite3: "npm:8.0.1"
     pg: "npm:^8.12.0"
     pg-connection-string: "npm:^2.5.0"
     react: "npm:^18.0.0"
@@ -12276,7 +12248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^7.1.0, prebuild-install@npm:^7.1.1":
+"prebuild-install@npm:^7.1.1":
   version: 7.1.2
   resolution: "prebuild-install@npm:7.1.2"
   dependencies:
