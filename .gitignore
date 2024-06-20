@@ -62,3 +62,5 @@ admin/src/
 # Specific to your project (add any other custom directories or files you want to ignore)
 custom_directory/
 custom_file.ext
+
+.env
