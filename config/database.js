@@ -2,14 +2,17 @@ const path = require("path");
 
 module.exports = ({ env }) => ({
   connection: {
-    client: "postgres",
+    client: "mysql",
     connection: {
-      host: process.env.DATABASE_HOST,
-      port: parseInt(process.env.DATABASE_PORT, 10),
-      database: process.env.DATABASE_NAME,
-      user: process.env.DATABASE_USERNAME,
-      password: process.env.DATABASE_PASSWORD,
+      host: env("DATABASE_HOST"),
+      port: env.int("DATABASE_PORT"),
+      database: env("DATABASE_NAME"),
+      user: env("DATABASE_USERNAME"),
+      password: env("DATABASE_PASSWORD"),
+      ssl: {
+        rejectUnauthorized: env.bool("DATABASE_SSL"), // For self-signed certificates
+      },
     },
-    useNullAsDefault: true,
+    debug: false,
   },
 });
